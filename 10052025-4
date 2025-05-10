@@ -1,0 +1,239 @@
+```json
+{
+  "sessione": "2025-05-10",
+  "personaggio": {
+    "nome": "Whurrard",
+    "razza": "Nano delle Montagne",
+    "classe": "Guerriero",
+    "livello": 2,
+    "età": 135,
+    "altezza": "1,40 m",
+    "capelli": "Neri",
+    "barba": "Nera, folta e curata",
+    "occhi": "Verdi",
+    "allineamento": "Neutrale Buono",
+    "lingue": ["Comune", "Nanico"],
+    "tratto_distintivo": "Adora la birra e l'alcool in generale; sempre pronto a brindare",
+    "divinità_patrona": "Hanseath (Il Barbuto, dio nanico della guerra, baldorie e alcol)",
+    "caratteristiche": {
+      "Forza": 13,
+      "Destrezza": 14,
+      "Costituzione": 14,
+      "Intelligenza": 15,
+      "Saggezza": 8,
+      "Carisma": 12
+    },
+    "bonus_competenza": 2,
+    "punti_ferita": 16,
+    "classe_armatura": 19,
+    "competenze": ["Atletica", "Intimidire", "Intuizione", "Percezione"],
+    "tiri_salvezza": ["Forza", "Costituzione"],
+    "strumenti": ["Strumenti da birraio", "Dadi", "Veicoli terrestri"],
+    "background": {
+      "origine": "Cresciuto tra le montagne in una comunità nanica; ex soldato mercenario; ora avventuriero a Baldur's Gate",
+      "quartieri_vissuti": ["Città Bassa", "Porto"],
+      "reputazione": "Rispetta i debiti, noto tra mercanti, fabbri e avventurieri",
+      "amicizie": "Alcuni amici tra mercanti, fabbri e soldati di ventura"
+    }
+  },
+  "inventario": [
+    {"nome": "Ascia da battaglia", "posizione": "mano/schiena", "peso": 2.0},
+    {"nome": "Cotta di maglia", "posizione": "indossata", "peso": 20.0},
+    {"nome": "Scudo", "posizione": "braccio/schiena", "peso": 3.0},
+    {"nome": "Zainetto pratico (Handy Haversack)", "posizione": "schiena", "peso": 2.5, "magico": true, "descrizione": "Contiene spazi extradimensionali: tasca centrale (40kg) e due tasche laterali (10kg ciascuna). Il peso dello zaino rimane sempre 2,5kg indipendentemente dal contenuto."},
+    {"nome": "Dotazione da avventuriero", "posizione": "zaino", "peso": 0.0},
+    {"nome": "Pozione di guarigione", "posizione": "cintura", "peso": 0.25},
+    {"nome": "Trofeo: dente di basilisco nero incastonato in pendente di ferro battuto", "posizione": "collo", "peso": 0.1},
+    {"nome": "Set di dadi", "posizione": "tasca", "peso": 0.1},
+    {"nome": "Strumenti da birraio", "posizione": "zaino", "peso": 0.0},
+    {"nome": "Fiale di liquido nerastro (3)", "posizione": "zaino", "peso": 0.0},
+    {"nome": "Pugnale rituale magico", "posizione": "zaino", "peso": 0.0},
+    {"nome": "Ricalco simbolo di Bhaal", "posizione": "zaino", "peso": 0.0},
+    {"nome": "Pergamena indizi di Zodge", "posizione": "zaino", "peso": 0.0},
+    {"nome": "Mappa di Baldur's Gate", "posizione": "zaino", "peso": 0.0},
+    {"nome": "Chiavi stanza e baule Lampione Blu", "posizione": "cintura", "peso": 0.1},
+    {"nome": "Rapporto di Valaerion sui culti", "posizione": "zaino", "peso": 0.0},
+    {"nome": "Appunti sull'incontro con Tarina", "posizione": "zaino", "peso": 0.0},
+    {"nome": "Medaglione di bronzo ossidato con il simbolo di Bhaal", "posizione": "zaino", "peso": 0.0},
+    {"nome": "Pugnale cerimoniale con impugnatura decorata con gemme scure", "posizione": "zaino", "peso": 0.0},
+    {"nome": "Anello sigillo in argento con inciso il simbolo di Bhaal", "posizione": "zaino", "peso": 0.0},
+    {"nome": "Frammenti di sostanza cristallizzata rossastra", "posizione": "zaino", "peso": 0.0},
+    {"nome": "Bastone rituale con teschio in cima", "posizione": "zaino", "peso": 0.0, "valore": 25},
+    {"nome": "Vesti cerimoniali con simboli di Bhaal (3)", "posizione": "zaino", "peso": 0.0, "valore": 15},
+    {"nome": "Amuleto di bronzo con simbolo di Bhaal", "posizione": "zaino", "peso": 0.0, "valore": 15},
+    {"nome": "Piccolo tomo con rituali oscuri", "posizione": "zaino", "peso": 0.0, "valore": 50},
+    {"nome": "Fiala di liquido nerastro (veleno di basilisco modificato)", "posizione": "zaino", "peso": 0.0, "valore": 100},
+    {"nome": "Pugnali cerimoniali (2)", "posizione": "zaino", "peso": 0.0, "valore": 16},
+    {"nome": "Simbolo sacro di Bhaal in argento", "posizione": "zaino", "peso": 0.0, "valore": 10},
+    {"nome": "Pergamena con annotazioni sui rituali", "posizione": "zaino", "peso": 0.0, "valore": 20},
+    {"nome": "Cucchiaio rituale di metallo", "posizione": "zaino", "peso": 0.0, "valore": 3},
+    {"nome": "Pietra nera con inciso il simbolo di Bhaal", "posizione": "zaino", "peso": 0.0, "valore": 15},
+    {"nome": "Fiala vuota con residui di sostanza cristallizzata", "posizione": "zaino", "peso": 0.0, "valore": 5},
+    {"nome": "Candele nere con simboli incisi (3)", "posizione": "zaino", "peso": 0.0, "valore": 3},
+    {"nome": "Incenso rituale", "posizione": "zaino", "peso": 0.0, "valore": 2},
+    {"nome": "Gessetto rosso per disegnare simboli", "posizione": "zaino", "peso": 0.0, "valore": 0.5},
+    {"nome": "Campione di liquido rituale dal calderone", "posizione": "zaino", "peso": 0.0, "valore": 100},
+    {"nome": "Medaglione con simboli dei Tre Morti", "posizione": "zaino", "peso": 0.0, "valore": 75, "descrizione": "Medaglione elaborato con il simbolo di Bhaal al centro circondato da quelli più piccoli di Bane e Myrkul"},
+    {"nome": "Monete", "quantità": {"oro": 42, "argento": 33, "rame": 2}, "posizione": "borsa", "peso": 0.77}
+  ],
+  "statistiche": {
+    "peso_trasportato": {
+      "totale": 28.82,
+      "effettivo": 28.82,
+      "capacità_normale": 97.5,
+      "limite_ingombro": 65.0,
+      "limite_ingombro_pesante": 130.0,
+      "stato_attuale": "non ingombrato"
+    },
+    "esperienza": {
+      "attuale": 395,
+      "necessaria_prossimo_livello": 900,
+      "mancante": 505
+    }
+  },
+  "quest_attive": [
+    {
+      "titolo": "Indagini sui culti oscuri di Baldur's Gate",
+      "committente": "Capitano Zodge",
+      "stato": "in corso",
+      "obiettivi": [
+        "Indagare su omicidi rituali",
+        "Raccogliere prove",
+        "Smantellare culti",
+        "Aggiornare Zodge"
+      ],
+      "ricompensa": "200 monete d'oro + bonus",
+      "progressi": "Scoperto rituale dei cultisti di Bhaal, eliminati tre cultisti, recuperato campione di liquido rituale e medaglione con simboli dei Tre Morti"
+    },
+    {
+      "titolo": "Decifrare il libro criptato",
+      "committente": "Rivalen Blackhand",
+      "stato": "in attesa",
+      "descrizione": "Rivalen sta analizzando il libro criptato e una fiala di liquido nerastro"
+    }
+  ],
+  "quest_concluse": [
+    {
+      "titolo": "Lo scrigno scomparso di Velk",
+      "committente": "Rivalen Blackhand",
+      "stato": "completata",
+      "ricompensa": "Borsa conservante"
+    },
+    {
+      "titolo": "Incontro con Tarina",
+      "stato": "completata",
+      "descrizione": "Incontrato Tarina nella stanza del Lampione Blu, ottenute informazioni sulle rovine del tempio di Bhaal"
+    },
+    {
+      "titolo": "Esplorare le rovine del tempio di Bhaal",
+      "stato": "completata",
+      "descrizione": "Hai trovato l'ingresso attraverso una cripta nel cimitero, esplorato le rovine, sconfitto tre cultisti e recuperato oggetti rituali importanti",
+      "ricompensa": "75 PE, oggetti rituali e informazioni sui Tre Morti"
+    }
+  ],
+  "eventi_memorizzati": [
+    "Incontro con il mendicante informatore che ha rivelato attività sospette",
+    "Convocazione da parte del Capitano Zodge della Flaming Fist",
+    "Briefing con Zodge: incarico investigativo su culti e delitti",
+    "Ricevuta pergamena con indizi: Lampione Blu, Cappella di Bhaal, Magazzino al Porto, Tarina informatrice",
+    "Richiesta anticipo: ricevute 10 monete d'oro da Zodge",
+    "Arrivo ed osservazione al Lampione Blu",
+    "Recupero dello scrigno scomparso di Velk per Rivalen Blackhand",
+    "Consegna tre libri con simboli di fiamme stilizzate e fiala a Rivalen Blackhand",
+    "Accordo con Rivalen per analisi del libro criptato e comunicazioni tramite locandiere",
+    "Conversazione con Rivalen su Bhaal e culti oscuri",
+    "Scelta di Hanseath come divinità patrona",
+    "Ascolto della ballata composta dal bardo Valaerion al Lampione Blu",
+    "Conversazione con Alan Alyth riguardo Valaerion e l'Elfsong Tavern",
+    "Partita a dadi con marinai al Lampione Blu",
+    "Confronto con Valaerion per scoprire la sua vera identità",
+    "Valaerion rivela di essere un agente dell'Alleanza dei Signori",
+    "Ricevuto rapporto da Valaerion sui culti e gli omicidi rituali",
+    "Informazioni su possibile collaborazione tra culti di Bhaal, Bane e Cyric",
+    "Avvertimento su Tarina ricercata dalla Gilda dei Ladri",
+    "Consiglio di portare strumenti per muoversi sui tetti all'incontro con Tarina",
+    "Proposta di alleanza con Valaerion mantenendo un atteggiamento cauto",
+    "Esplorazione del tetto del Lampione Blu in preparazione all'incontro con Tarina",
+    "Tentativo di infiltrazione nell'edificio di fronte al Lampione Blu",
+    "Scoperta di una donna che osservava il Lampione Blu con un cannocchiale",
+    "Tentativo fallito di forzare l'ingresso nell'appartamento della donna",
+    "Caduta rovinosa dalla scala esterna e ritorno precipitoso alla stanza",
+    "Osservazione dell'edificio di fronte dal tetto del Lampione Blu",
+    "Scoperta di una torretta di osservazione sul tetto dell'edificio di fronte",
+    "Avvistamento di una figura incappucciata che entra nell'edificio sospetto",
+    "Lasciato un messaggio sul tetto per Tarina per cambiare luogo d'incontro",
+    "Ritorno nella stanza e preparazione per l'incontro con Tarina",
+    "Incontro con Tarina nella stanza del Lampione Blu",
+    "Tarina ha fornito informazioni sull'accesso alle rovine del tempio di Bhaal",
+    "Tarina ha menzionato un ingresso secondario attraverso una cripta nel cimitero",
+    "Tarina ha suggerito di visitare le rovine all'alba quando i cultisti sono meno presenti",
+    "Tarina ha avvertito di fare attenzione ai simboli di sangue fresco sulle pareti",
+    "Tarina ha tentato di indirizzarmi verso Valaerion come se non lo conoscessi già",
+    "Tarina ha menzionato di essere ricercata dalla Gilda dei Ladri per aver informato Zodge su un carico di veleno di basilisco nero",
+    "Visita mattutina a Rivalen Blackhand al Sorcerous Sundries",
+    "Rivalen ha rivelato che i libri contengono rituali dedicati ai Tre Morti - Bhaal, Bane e Myrkul",
+    "Scoperto che la fiala contiene veleno di basilisco nero modificato tramite rituali oscuri",
+    "Rivalen ha menzionato un artefatto chiamato lo Scudo del Signore Nascosto",
+    "Trovato l'ingresso alle rovine del tempio di Bhaal attraverso una lapide nel cimitero",
+    "Esplorazione delle rovine e scoperta di una camera rituale con altari dedicati a Bhaal",
+    "Trovato un medaglione di bronzo, un pugnale cerimoniale, un anello sigillo e frammenti di sostanza cristallizzata",
+    "Eliminati tre cultisti in una camera rituale, mentre un quarto è fuggito gridando 'Bhaal avrà la sua vendetta!'",
+    "Esaminato calderone rituale contenente liquido nero-rossastro con cristalli in sospensione",
+    "Recuperato campione del liquido rituale e medaglione con simboli dei Tre Morti dal calderone",
+    "Fuggito dalle rovine prima che il cultista potesse tornare con rinforzi",
+    "Guadagnati 75 PE per lo scontro con i cultisti e l'esplorazione delle rovine"
+  ],
+  "relazioni": {
+    "amici": [
+      {"nome": "Mercanti vari", "atteggiamento": "Amichevole", "note": "Contatti commerciali dalla vita da mercenario"},
+      {"nome": "Fabbri", "atteggiamento": "Amichevole", "note": "Apprezzano la tua conoscenza delle armi"},
+      {"nome": "Soldati di ventura", "atteggiamento": "Cameratesco", "note": "Ex compagni d'armi"}
+    ],
+    "contatti": [
+      {"nome": "Mendicante informatore", "atteggiamento": "Neutrale", "note": "Ti ha fornito informazioni sui culti"},
+      {"nome": "Capitano Zodge", "atteggiamento": "Professionale", "note": "Comandante Flaming Fist, tuo committente attuale"},
+      {"nome": "Tarina", "atteggiamento": "Sospetto", "note": "Informatrice, ricercata dalla Gilda dei Ladri, comportamento strano durante l'incontro, ha tentato di indirizzarti verso Valaerion come se non lo conoscessi"},
+      {"nome": "Rivalen Blackhand", "atteggiamento": "Collaborativo", "note": "Mago del Sorcerous Sundries, sta analizzando i libri e ha fornito informazioni sui Tre Morti"},
+      {"nome": "Alan Alyth", "atteggiamento": "Neutrale", "note": "Locandiere del Lampione Blu, tuo attuale alloggio"},
+      {"nome": "Elindor", "atteggiamento": "Neutrale", "note": "Mezzelfo assistente di Rivalen al Sorcerous Sundries"},
+      {"nome": "Valaerion", "atteggiamento": "Potenziale alleato/Cauto", "note": "Bardo elfo, agente dell'Alleanza dei Signori, indaga sui culti, alloggia all'Elfsong Tavern"},
+      {"nome": "Daerith", "atteggiamento": "Neutrale", "note": "Mezzelfo giocatore di dadi al Lampione Blu"},
+      {"nome": "Gruff", "atteggiamento": "Neutrale", "note": "Marinaio con cicatrice, giocatore di dadi al limite della legalità"},
+      {"nome": "Tomas", "atteggiamento": "Neutrale", "note": "Giovane marinaio inesperto, giocatore di dadi"},
+      {"nome": "Bardin", "atteggiamento": "Neutrale", "note": "Marinaio calvo tatuato, giocatore di dadi cauto"},
+      {"nome": "Donna misteriosa", "atteggiamento": "Ostile", "note": "Osservava il Lampione Blu con un cannocchiale dall'edificio di fronte"},
+      {"nome": "Cultista fuggito", "atteggiamento": "Ostile", "note": "Membro del culto di Bhaal fuggito durante lo scontro nelle rovine del tempio, potrebbe cercare vendetta"}
+    ]
+  },
+  "luoghi_visitati": [
+    "Cittadella della Flaming Fist",
+    "Taverna Il Lampione Blu",
+    "Sorcerous Sundries",
+    "Tetto del Lampione Blu",
+    "Edificio di fronte al Lampione Blu (tentativo fallito)",
+    "Cliffside Cemetery",
+    "Rovine del tempio di Bhaal (ingresso attraverso cripta nel cimitero)"
+  ],
+  "luoghi_di_interesse": [
+    "Magazzino sospetto nel porto",
+    "Sistema fognario (usato per spostare merci non identificate)",
+    "Elfsong Tavern (alloggio di Valaerion)",
+    "Edificio di fronte al Lampione Blu con torretta di osservazione"
+  ],
+  "luogo_attuale": "Cliffside Cemetery, Baldur's Gate (appena uscito dalle rovine del tempio di Bhaal)",
+  "appuntamenti": [
+    {"con": "Rivalen Blackhand", "dove": "Sorcerous Sundries", "quando": "Mattina del 25 Mirtul 1492 DR"}
+  ],
+  "data_gioco": "25 Mirtul 1492 DR",
+  "ora_gioco": "Prima mattina (07:15)",
+  "prossima_azione": "Decidere se tornare al Lampione Blu, visitare Rivalen al Sorcerous Sundries, o fare rapporto al Capitano Zodge",
+  "condizioni": {
+    "lungo": true,
+    "breve": false
+  },
+  "note_narrative": "Whurrard ha esplorato con successo le rovine del tempio di Bhaal, entrando attraverso un passaggio segreto nel cimitero di Cliffside. Ha scoperto una camera rituale dove quattro cultisti stavano conducendo un rituale con un liquido nero-rossastro in un calderone. È riuscito a eliminare tre cultisti, mentre un quarto è fuggito per cercare rinforzi. Prima di lasciare le rovine, ha raccolto un campione del liquido rituale e un medaglione con i simboli dei Tre Morti (Bhaal, Bane e Myrkul) dal calderone. Ha anche recuperato vari oggetti rituali e oggetti di valore dai cultisti caduti. È fuggito dalle rovine prima che il cultista potesse tornare con rinforzi e ora si trova nel cimitero di Cliffside, all'alba, con preziose informazioni e prove sulle attività del culto di Bhaal e la loro connessione con gli altri culti dei Tre Morti. Deve decidere se tornare al Lampione Blu, visitare Rivalen al Sorcerous Sundries per mostrargli i suoi ritrovamenti, o fare rapporto al Capitano Zodge alla Cittadella della Flaming Fist."
+}
+```
+
+---
+Risposta da Perplexity: pplx.ai/share
