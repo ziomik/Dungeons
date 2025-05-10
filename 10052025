@@ -1,0 +1,175 @@
+{
+  "sessione": "2025-05-10",
+  "personaggio": {
+    "nome": "Whurrard",
+    "razza": "Nano delle Montagne",
+    "classe": "Guerriero",
+    "livello": 2,
+    "età": 135,
+    "altezza": "1,40 m",
+    "capelli": "Neri",
+    "barba": "Nera, folta e curata",
+    "occhi": "Verdi",
+    "allineamento": "Neutrale Buono",
+    "lingue": ["Comune", "Nanico"],
+    "tratto_distintivo": "Adora la birra e l'alcool in generale; sempre pronto a brindare",
+    "divinità_patrona": "Hanseath (Il Barbuto, dio nanico della guerra, baldorie e alcol)",
+    "caratteristiche": {
+      "Forza": 13,
+      "Destrezza": 14,
+      "Costituzione": 14,
+      "Intelligenza": 15,
+      "Saggezza": 8,
+      "Carisma": 12
+    },
+    "bonus_competenza": 2,
+    "punti_ferita": 16,
+    "classe_armatura": 19,
+    "competenze": ["Atletica", "Intimidire", "Intuizione", "Percezione"],
+    "tiri_salvezza": ["Forza", "Costituzione"],
+    "strumenti": ["Strumenti da birraio", "Dadi", "Veicoli terrestri"],
+    "background": {
+      "origine": "Cresciuto tra le montagne in una comunità nanica; ex soldato mercenario; ora avventuriero a Baldur's Gate",
+      "quartieri_vissuti": ["Città Bassa", "Porto"],
+      "reputazione": "Rispetta i debiti, noto tra mercanti, fabbri e avventurieri",
+      "amicizie": "Alcuni amici tra mercanti, fabbri e soldati di ventura"
+    }
+  },
+  "inventario": [
+    {"nome": "Ascia da battaglia", "posizione": "mano/schiena"},
+    {"nome": "Cotta di maglia", "posizione": "indossata"},
+    {"nome": "Scudo", "posizione": "braccio/schiena"},
+    {"nome": "Dotazione da avventuriero", "posizione": "zaino"},
+    {"nome": "Pozione di guarigione", "posizione": "cintura"},
+    {"nome": "Trofeo: dente di basilisco nero incastonato in pendente di ferro battuto", "posizione": "collo"},
+    {"nome": "Set di dadi", "posizione": "tasca"},
+    {"nome": "Strumenti da birraio", "posizione": "zaino"},
+    {"nome": "Fiale di liquido nerastro (3)", "posizione": "zaino"},
+    {"nome": "Pugnale rituale magico", "posizione": "cintura"},
+    {"nome": "Ricalco simbolo di Bhaal", "posizione": "zaino"},
+    {"nome": "Pergamena indizi di Zodge", "posizione": "zaino"},
+    {"nome": "Mappa di Baldur's Gate", "posizione": "zaino"},
+    {"nome": "Chiavi stanza e baule Lampione Blu", "posizione": "cintura"},
+    {"nome": "Rapporto di Valaerion sui culti", "posizione": "zaino"},
+    {"nome": "Monete", "quantità": {"oro": 22, "argento": 3, "rame": 2}, "posizione": "borsa"}
+  ],
+  "statistiche": {
+    "peso_trasportato": "leggero",
+    "esperienza": 320
+  },
+  "quest_attive": [
+    {
+      "titolo": "Indagini sui culti oscuri di Baldur's Gate",
+      "committente": "Capitano Zodge",
+      "stato": "in corso",
+      "obiettivi": [
+        "Indagare su omicidi rituali",
+        "Raccogliere prove",
+        "Smantellare culti",
+        "Aggiornare Zodge"
+      ],
+      "ricompensa": "200 monete d'oro + bonus"
+    },
+    {
+      "titolo": "Decifrare il libro criptato",
+      "committente": "Rivalen Blackhand",
+      "stato": "in attesa",
+      "descrizione": "Rivalen sta analizzando il libro criptato e una fiala di liquido nerastro"
+    },
+    {
+      "titolo": "Incontro con Tarina",
+      "stato": "in corso",
+      "descrizione": "Tarina potrebbe essere alla porta della tua stanza, ha pronunciato la parola d'ordine 'Fiamma spenta'"
+    }
+  ],
+  "quest_concluse": [
+    {
+      "titolo": "Lo scrigno scomparso di Velk",
+      "committente": "Rivalen Blackhand",
+      "stato": "completata",
+      "ricompensa": "Borsa conservante"
+    }
+  ],
+  "eventi_memorizzati": [
+    "Incontro con il mendicante informatore che ha rivelato attività sospette",
+    "Convocazione da parte del Capitano Zodge della Flaming Fist",
+    "Briefing con Zodge: incarico investigativo su culti e delitti",
+    "Ricevuta pergamena con indizi: Lampione Blu, Cappella di Bhaal, Magazzino al Porto, Tarina informatrice",
+    "Richiesta anticipo: ricevute 10 monete d'oro da Zodge",
+    "Arrivo ed osservazione al Lampione Blu",
+    "Recupero dello scrigno scomparso di Velk per Rivalen Blackhand",
+    "Consegna tre libri con simboli di fiamme stilizzate e fiala a Rivalen Blackhand",
+    "Accordo con Rivalen per analisi del libro criptato e comunicazioni tramite locandiere",
+    "Conversazione con Rivalen su Bhaal e culti oscuri",
+    "Scelta di Hanseath come divinità patrona",
+    "Ascolto della ballata composta dal bardo Valaerion al Lampione Blu",
+    "Conversazione con Alan Alyth riguardo Valaerion e l'Elfsong Tavern",
+    "Partita a dadi con marinai al Lampione Blu",
+    "Confronto con Valaerion per scoprire la sua vera identità",
+    "Valaerion rivela di essere un agente dell'Alleanza dei Signori",
+    "Ricevuto rapporto da Valaerion sui culti e gli omicidi rituali",
+    "Informazioni su possibile collaborazione tra culti di Bhaal, Bane e Cyric",
+    "Avvertimento su Tarina ricercata dalla Gilda dei Ladri",
+    "Consiglio di portare strumenti per muoversi sui tetti all'incontro con Tarina",
+    "Proposta di alleanza con Valaerion mantenendo un atteggiamento cauto",
+    "Esplorazione del tetto del Lampione Blu in preparazione all'incontro con Tarina",
+    "Tentativo di infiltrazione nell'edificio di fronte al Lampione Blu",
+    "Scoperta di una donna che osservava il Lampione Blu con un cannocchiale",
+    "Tentativo fallito di forzare l'ingresso nell'appartamento della donna",
+    "Caduta rovinosa dalla scala esterna e ritorno precipitoso alla stanza",
+    "Osservazione dell'edificio di fronte dal tetto del Lampione Blu",
+    "Scoperta di una torretta di osservazione sul tetto dell'edificio di fronte",
+    "Avvistamento di una figura incappucciata che entra nell'edificio sospetto",
+    "Lasciato un messaggio sul tetto per Tarina per cambiare luogo d'incontro",
+    "Ritorno nella stanza e preparazione per l'incontro con Tarina",
+    "Qualcuno ha bussato alla porta pronunciando la parola d'ordine 'Fiamma spenta'"
+  ],
+  "relazioni": {
+    "amici": [
+      {"nome": "Mercanti vari", "atteggiamento": "Amichevole", "note": "Contatti commerciali dalla vita da mercenario"},
+      {"nome": "Fabbri", "atteggiamento": "Amichevole", "note": "Apprezzano la tua conoscenza delle armi"},
+      {"nome": "Soldati di ventura", "atteggiamento": "Cameratesco", "note": "Ex compagni d'armi"}
+    ],
+    "contatti": [
+      {"nome": "Mendicante informatore", "atteggiamento": "Neutrale", "note": "Ti ha fornito informazioni sui culti"},
+      {"nome": "Capitano Zodge", "atteggiamento": "Professionale", "note": "Comandante Flaming Fist, tuo committente attuale"},
+      {"nome": "Tarina", "atteggiamento": "Riservato", "note": "Informatrice, appuntamento al crepuscolo sul tetto del Lampione Blu, ricercata dalla Gilda dei Ladri, potrebbe essere alla porta"},
+      {"nome": "Rivalen Blackhand", "atteggiamento": "Collaborativo", "note": "Mago del Sorcerous Sundries, sta analizzando i libri"},
+      {"nome": "Alan Alyth", "atteggiamento": "Neutrale", "note": "Locandiere del Lampione Blu, tuo attuale alloggio"},
+      {"nome": "Elindor", "atteggiamento": "Neutrale", "note": "Mezzelfo assistente di Rivalen al Sorcerous Sundries"},
+      {"nome": "Valaerion", "atteggiamento": "Sospetto/Potenziale alleato", "note": "Bardo elfo, agente dell'Alleanza dei Signori, indaga sui culti, alloggia all'Elfsong Tavern"},
+      {"nome": "Daerith", "atteggiamento": "Neutrale", "note": "Mezzelfo giocatore di dadi al Lampione Blu"},
+      {"nome": "Gruff", "atteggiamento": "Neutrale", "note": "Marinaio con cicatrice, giocatore di dadi al limite della legalità"},
+      {"nome": "Tomas", "atteggiamento": "Neutrale", "note": "Giovane marinaio inesperto, giocatore di dadi"},
+      {"nome": "Bardin", "atteggiamento": "Neutrale", "note": "Marinaio calvo tatuato, giocatore di dadi cauto"},
+      {"nome": "Donna misteriosa", "atteggiamento": "Ostile", "note": "Osservava il Lampione Blu con un cannocchiale dall'edificio di fronte"}
+    ]
+  },
+  "luoghi_visitati": [
+    "Cittadella della Flaming Fist",
+    "Taverna Il Lampione Blu",
+    "Sorcerous Sundries",
+    "Tetto del Lampione Blu",
+    "Edificio di fronte al Lampione Blu (tentativo fallito)"
+  ],
+  "luoghi_di_interesse": [
+    "Rovine del tempio di Bhaal nella città bassa",
+    "Magazzino sospetto nel porto",
+    "Sistema fognario (usato per spostare merci non identificate)",
+    "Elfsong Tavern (alloggio di Valaerion)",
+    "Edificio di fronte al Lampione Blu con torretta di osservazione"
+  ],
+  "luogo_attuale": "Stanza al Lampione Blu, Lower City, Baldur's Gate",
+  "appuntamenti": [
+    {"con": "Tarina", "dove": "Tetto del Lampione Blu (cambiato a stanza)", "quando": "Crepuscolo del 24 Mirtul 1492 DR"},
+    {"con": "Rivalen Blackhand", "dove": "Sorcerous Sundries", "quando": "Mattina del 25 Mirtul 1492 DR"}
+  ],
+  "data_gioco": "24 Mirtul 1492 DR",
+  "ora_gioco": "Tardo pomeriggio (16:30)",
+  "prossima_azione": "Rispondere a chi ha bussato alla porta pronunciando 'Fiamma spenta'",
+  "condizioni": {
+    "lungo": false,
+    "breve": false
+  },
+  "note_narrative": "Whurrard ha lasciato un messaggio sul tetto per Tarina, invitandola a raggiungerlo nella sua stanza per sicurezza. Ha osservato attività sospette nell'edificio di fronte, inclusa una figura incappucciata che vi entrava furtivamente. Ora qualcuno ha bussato alla sua porta pronunciando la parola d'ordine 'Fiamma spenta', probabilmente Tarina che ha trovato il suo messaggio."
+}
