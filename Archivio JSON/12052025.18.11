@@ -1,0 +1,264 @@
+{
+  "PG": {
+    "nome": "Whurrard",
+    "razza": "Nano delle Montagne",
+    "classe": "Guerriero",
+    "livello": 2,
+    "background": "Ex soldato mercenario, ora avventuriero a Baldur's Gate",
+    "allineamento": "Neutrale Buono",
+    "divinitàpatrona": "Hanseath Il Barbuto",
+    "lingue": ["Comune", "Nanico"],
+    "caratteristiche": {
+      "Forza": 13,
+      "Destrezza": 14,
+      "Costituzione": 14,
+      "Intelligenza": 15,
+      "Saggezza": 8,
+      "Carisma": 12
+    },
+    "modificatori": {
+      "caratteristiche": {
+        "Forza": 1,
+        "Destrezza": 2,
+        "Costituzione": 2,
+        "Intelligenza": 2,
+        "Saggezza": -1,
+        "Carisma": 1
+      },
+      "abilità": {
+        "Acrobazia": 2,
+        "Addestrare Animali": -1,
+        "Arcano": 2,
+        "Atletica": 3,
+        "Furtività": 2,
+        "Indagare": 2,
+        "Inganno": 1,
+        "Intimidire": 3,
+        "Intuizione": 1,
+        "Medicina": -1,
+        "Natura": 2,
+        "Percezione": 1,
+        "Persuasione": 1,
+        "Rapidità di Mano": 2,
+        "Religione": 2,
+        "Sopravvivenza": -1,
+        "Storia": 2
+      },
+      "tiri_salvezza": {
+        "Forza": 3,
+        "Destrezza": 2,
+        "Costituzione": 4,
+        "Intelligenza": 2,
+        "Saggezza": -1,
+        "Carisma": 1
+      },
+      "attacco": {
+        "mischia": 3,
+        "distanza": 4,
+        "incantesimi": 0
+      }
+    },
+    "puntiferita": 16,
+    "classearmatura": 19,
+    "bonuscompetenza": 2,
+    "competenze": ["Atletica", "Intimidire", "Intuizione", "Percezione"],
+    "tirisalvezza": ["Forza", "Costituzione"],
+    "strumenti": ["Strumenti da birraio", "Dadi", "Veicoli terrestri"],
+    "trattodistintivo": "Adora la birra e l'alcool in generale, sempre pronto a brindare",
+    "età": 135,
+    "altezza": 1.4,
+    "capelli": "Neri",
+    "barba": "Nera, folta e curata",
+    "occhi": "Verdi",
+    "quartieri": ["Città Bassa", "Porto"],
+    "reputazione": "Rispetta i debiti, noto tra mercanti, fabbri e avventurieri",
+    "amicizie": "Alcuni amici tra mercanti, fabbri e soldati di ventura",
+    "inventario": [
+      {"nome": "Ascia da battaglia", "posizione": "manoschiena", "peso": 2.0},
+      {"nome": "Cotta di maglia", "posizione": "indossata", "peso": 20.0},
+      {"nome": "Scudo", "posizione": "braccioschiena", "peso": 3.0},
+      {"nome": "Zainetto pratico Handy Haversack", "posizione": "schiena", "peso": 2.5, "magico": true, "descrizione": "Contiene spazi extradimensionali tasca centrale 40kg e due tasche laterali 10kg ciascuna. Il peso dello zaino rimane sempre 2,5kg indipendentemente dal contenuto."},
+      {"nome": "Dotazione da avventuriero", "posizione": "zaino", "peso": 0.0},
+      {"nome": "Pozione di guarigione", "posizione": "cintura", "peso": 0.25},
+      {"nome": "Trofeo dente di basilisco nero incastonato in pendente di ferro battuto", "posizione": "collo", "peso": 0.1},
+      {"nome": "Set di dadi", "posizione": "tasca", "peso": 0.1},
+      {"nome": "Strumenti da birraio", "posizione": "zaino", "peso": 0.0},
+      {"nome": "Fiale di liquido nerastro", "quantità": 3, "posizione": "zaino", "peso": 0.0},
+      {"nome": "Pugnale rituale magico", "posizione": "zaino", "peso": 0.0},
+      {"nome": "Ricalco simbolo di Bhaal", "posizione": "zaino", "peso": 0.0},
+      {"nome": "Pergamena indizi di Zodge", "posizione": "zaino", "peso": 0.0},
+      {"nome": "Mappa di Baldurs Gate", "posizione": "zaino", "peso": 0.0},
+      {"nome": "Chiavi stanza e baule Lampione Blu", "posizione": "cintura", "peso": 0.1},
+      {"nome": "Rapporto di Valaerion sui culti", "posizione": "zaino", "peso": 0.0},
+      {"nome": "Appunti sull'incontro con Tarina", "posizione": "zaino", "peso": 0.0},
+      {"nome": "Medaglione di bronzo ossidato con il simbolo di Bhaal", "posizione": "zaino", "peso": 0.0},
+      {"nome": "Pugnale cerimoniale con impugnatura decorata con gemme scure", "posizione": "zaino", "peso": 0.0},
+      {"nome": "Anello sigillo in argento con inciso il simbolo di Bhaal", "posizione": "zaino", "peso": 0.0},
+      {"nome": "Frammenti di sostanza cristallizzata rossastra", "posizione": "zaino", "peso": 0.0},
+      {"nome": "Bastone rituale con teschio in cima", "posizione": "zaino", "peso": 0.0, "valore": 25},
+      {"nome": "Piccolo tomo con rituali oscuri", "posizione": "zaino", "peso": 0.0, "valore": 50},
+      {"nome": "Fiala di liquido nerastro veleno di basilisco modificato", "posizione": "zaino", "peso": 0.0, "valore": 100},
+      {"nome": "Pugnali cerimoniali", "quantità": 2, "posizione": "zaino", "peso": 0.0, "valore": 16},
+      {"nome": "Pergamena con annotazioni sui rituali", "posizione": "zaino", "peso": 0.0, "valore": 20},
+      {"nome": "Fiala vuota con residui di sostanza cristallizzata", "posizione": "zaino", "peso": 0.0, "valore": 5},
+      {"nome": "Gessetto rosso per disegnare simboli", "posizione": "zaino", "peso": 0.0, "valore": 0.5},
+      {"nome": "Campione di liquido rituale dal calderone", "posizione": "zaino", "peso": 0.0, "valore": 100},
+      {"nome": "Medaglione con simboli dei Tre Morti", "posizione": "zaino", "peso": 0.0, "valore": 75, "descrizione": "Medaglione elaborato con il simbolo di Bhaal al centro circondato da quelli più piccoli di Bane e Myrkul"},
+      {"nome": "Monete", "quantità": {"oro": 134, "argento": 33, "rame": 2}, "posizione": "borsa", "peso": 0.77}
+    ],
+    "statistiche": {
+      "pesotrasportato_totale": 28.82,
+      "pesotrasportato_effettivo": 28.82,
+      "capacità_normale": 97.5,
+      "limite_ingombro": 65.0,
+      "limite_ingombro_pesante": 130.0,
+      "stato_attuale": "non ingombrato"
+    },
+    "esperienza": {
+      "attuale": 445,
+      "necessaria_prossimo_livello": 900,
+      "mancante": 455
+    },
+    "ricompense_assegnate": [
+      {"id": "cult-bhaal-01", "descrizione": "Eliminazione di tre cultisti nel tempio di Bhaal", "xp": 75, "datagioco": "25 Mirtul 1492 DR"},
+      {"id": "rapport-zodge-01", "descrizione": "Rapporto al Capitano Zodge sui cultisti", "xp": 50, "datagioco": "25 Mirtul 1492 DR"}
+    ],
+    "condizioni": {"lungo": true, "breve": false}
+  },
+  "missioni": {
+    "attive": [
+      {
+        "id": "quest-culti-01",
+        "titolo": "Indagini sui culti oscuri di Baldurs Gate",
+        "committente": "Capitano Zodge",
+        "stato": "in corso",
+        "obiettivi": [
+          "Indagare su omicidi rituali",
+          "Raccogliere prove",
+          "Smantellare culti",
+          "Aggiornare Zodge"
+        ],
+        "ricompensa": "200 monete d'oro bonus",
+        "progressi": "Scoperto rituale dei cultisti di Bhaal, eliminati tre cultisti, recuperato campione di liquido rituale e medaglione con simboli dei Tre Morti. Fatto rapporto a Zodge che ha autorizzato collaborazione con Valaerion."
+      },
+      {
+        "id": "quest-libro-01",
+        "titolo": "Decifrare il libro criptato",
+        "committente": "Rivalen Blackhand",
+        "stato": "in attesa",
+        "descrizione": "Rivalen sta analizzando il libro criptato e una fiala di liquido nerastro"
+      },
+      {
+        "id": "quest-magazzino-porto-01",
+        "titolo": "Indagare sul magazzino al porto",
+        "committente": "Capitano Zodge",
+        "stato": "in corso",
+        "descrizione": "Zodge ha suggerito di indagare sul magazzino al porto menzionato negli indizi"
+      },
+      {
+        "id": "quest-scudo-01",
+        "titolo": "Scoprire di più sullo Scudo del Signore Nascosto",
+        "committente": "Autodeterminata",
+        "stato": "in corso",
+        "descrizione": "Artefatto potente che potrebbe contenere un demone o diavolo; i Cavalieri dello Scudo lo cercano per conto degli Hhune"
+      }
+    ],
+    "concluse": [
+      {"id": "quest-velk-01"},
+      {"id": "quest-tarina-01"},
+      {"id": "quest-tempiobhaal-01"},
+      {"id": "quest-rapportozodge-01"}
+    ]
+  },
+  "PNG": [
+    {"nome": "Mercanti vari", "atteggiamento": "Amichevole", "note": "Contatti commerciali dalla vita da mercenario"},
+    {"nome": "Fabbri", "atteggiamento": "Amichevole", "note": "Apprezzano la tua conoscenza delle armi"},
+    {"nome": "Soldati di ventura", "atteggiamento": "Cameratesco", "note": "Ex compagni d'armi"},
+    {"nome": "Mendicante informatore", "atteggiamento": "Neutrale", "note": "Ti ha fornito informazioni sui culti"},
+    {"nome": "Capitano Zodge", "atteggiamento": "Rispettoso", "note": "Comandante Flaming Fist, tuo committente attuale, soddisfatto dei tuoi progressi"},
+    {"nome": "Tarina", "atteggiamento": "Sospetto", "note": "Informatrice, ricercata dalla Gilda dei Ladri, comportamento strano durante l'incontro"},
+    {"nome": "Rivalen Blackhand", "atteggiamento": "Collaborativo", "note": "Mago del Sorcerous Sundries, analizza i rituali e conferma la minaccia extraplanare"},
+    {"nome": "Alyth Elendara", "atteggiamento": "Neutrale", "note": "Mezzelfa proprietaria dell'Elfsong Tavern"},
+    {"nome": "Valaerion", "atteggiamento": "Alleato", "note": "Bardo elfo, agente dell'Alleanza dei Signori, condivide informazioni sui Tre Morti e lo Scudo"},
+    {"nome": "Shalimar", "atteggiamento": "Neutrale", "note": "Rigattiere nella Città Alta, ha comprato i tuoi oggetti rituali"},
+    {"nome": "Donna misteriosa", "atteggiamento": "Ostile", "note": "Osservava il Lampione Blu con un cannocchiale"},
+    {"nome": "Cultista fuggito", "atteggiamento": "Ostile", "note": "Membro del culto di Bhaal fuggito, potrebbe cercare vendetta"},
+    {"nome": "Cavalieri dello Scudo", "atteggiamento": "Minaccioso", "note": "Confraternita segreta degli Hhune, agenti occultati, sorvegliano lo scudo"},
+    {"nome": "Inseguitore incappucciato", "atteggiamento": "Ostile", "note": "Membro dei Cavalieri dello Scudo con spilla argentata, ha tentato di seguirti all'Elfsong Tavern"},
+    {"nome": "Guardie del magazzino", "atteggiamento": "Ostile", "note": "Due uomini armati che sorvegliano il magazzino sospetto al porto. Uno ha una cicatrice sul viso."}
+  ],
+  "luoghi": {
+    "visitati": [
+      "Baldur's Gate",
+      "Lampione Blu",
+      "Rivington",
+      "Magazzino Rivington",
+      "The Wide",
+      "Sorcerous Sundries",
+      "Corvorame",
+      "Magazzino Laterna",
+      "Elfsong Tavern",
+      "Il Mortaio d'Argento (cortile)"
+    ],
+    "di_interesse": [
+      "Magazzino sospetto nel porto",
+      "Sistema fognario usato per spostare merci non identificate",
+      "Edificio di fronte al Lampione Blu con torretta di osservazione"
+    ],
+    "attuale": "Magazzino sospetto nel porto (esterno)"
+  },
+  "eventi_memorizzati": [
+    "Incontro con mendicante informatore",
+    "Primo rapporto a Zodge",
+    "Recupero pergamena indizi",
+    "Soggiorno al Lampione Blu",
+    "Incontro con Velk",
+    "Incontro con Tarina",
+    "Indagine magazzino sospetto",
+    "Combattimento con cultisti",
+    "Rapporto su scrigno di Velk",
+    "Incontro segreto con Valaerion",
+    "Passaggio a livello 2",
+    "Confronto con i Cavalieri dello Scudo all'Elfsong Tavern",
+    "Seminato inseguitore dei Cavalieri dello Scudo",
+    "Incontro riservato con Valaerion al Mortaio d'Argento",
+    "Scoperta del magazzino sospetto al porto"
+  ],
+  "relazioni": [
+    {"nome": "Mercanti vari", "atteggiamento": "Amichevole"},
+    {"nome": "Fabbri", "atteggiamento": "Amichevole"},
+    {"nome": "Soldati di ventura", "atteggiamento": "Cameratesco"},
+    {"nome": "Mendicante informatore", "atteggiamento": "Neutrale"},
+    {"nome": "Capitano Zodge", "atteggiamento": "Rispettoso"},
+    {"nome": "Tarina", "atteggiamento": "Sospetto"},
+    {"nome": "Rivalen Blackhand", "atteggiamento": "Collaborativo"},
+    {"nome": "Alyth Elendara", "atteggiamento": "Neutrale"},
+    {"nome": "Valaerion", "atteggiamento": "Alleato"},
+    {"nome": "Shalimar", "atteggiamento": "Neutrale"},
+    {"nome": "Donna misteriosa", "atteggiamento": "Ostile"},
+    {"nome": "Cultista fuggito", "atteggiamento": "Ostile"},
+    {"nome": "Cavalieri dello Scudo", "atteggiamento": "Minaccioso"},
+    {"nome": "Inseguitore incappucciato", "atteggiamento": "Ostile"},
+    {"nome": "Guardie del magazzino", "atteggiamento": "Ostile"}
+  ],
+  "cronologia": [
+    "Incontro con mendicante informatore",
+    "Primo rapporto a Zodge",
+    "Recupero pergamena indizi",
+    "Soggiorno al Lampione Blu",
+    "Incontro con Velk",
+    "Incontro con Tarina",
+    "Indagine magazzino sospetto",
+    "Combattimento con cultisti",
+    "Rapporto su scrigno di Velk",
+    "Incontro segreto con Valaerion",
+    "Passaggio a livello 2",
+    "Confronto con i Cavalieri dello Scudo all'Elfsong Tavern",
+    "Seminato inseguitore dei Cavalieri dello Scudo",
+    "Incontro riservato con Valaerion al Mortaio d'Argento",
+    "Raggiunto il magazzino sospetto al porto, scoperta finestra verso il seminterrato"
+  ],
+  "note": "Whurrard ha localizzato il magazzino sospetto al porto e sta osservando due guardie all'interno del seminterrato attraverso una finestra parzialmente aperta. Ha notato che stanno esaminando qualcosa a terra, forse un simbolo, e c'è un forte odore metallico che potrebbe essere sangue. L'edificio appare in stato di semi-abbandono ma è chiaramente utilizzato regolarmente.",
+  "datagioco": "25 Mirtul 1492 DR",
+  "oragioco": "16:25"
+}
