@@ -1,0 +1,385 @@
+{
+  "PG": {
+    "nome": "Whurrard",
+    "razza": "Nano delle Montagne",
+    "classe": "Guerriero",
+    "livello": 2,
+    "background": "Ex soldato mercenario, ora avventuriero a Baldur's Gate",
+    "allineamento": "Neutrale Buono",
+    "divinitàpatrona": "Hanseath Il Barbuto",
+    "lingue": ["Comune", "Nanico"],
+    "caratteristiche": {
+      "Forza": 13,
+      "Destrezza": 14,
+      "Costituzione": 14,
+      "Intelligenza": 15,
+      "Saggezza": 8,
+      "Carisma": 12
+    },
+    "modificatori": {
+      "caratteristiche": {
+        "Forza": 1,
+        "Destrezza": 2,
+        "Costituzione": 2,
+        "Intelligenza": 2,
+        "Saggezza": -1,
+        "Carisma": 1
+      },
+      "abilità": {
+        "Acrobazia": 2,
+        "Addestrare Animali": -1,
+        "Arcano": 2,
+        "Atletica": 3,
+        "Furtività": 2,
+        "Indagare": 2,
+        "Inganno": 1,
+        "Intimidire": 3,
+        "Intuizione": 1,
+        "Medicina": -1,
+        "Natura": 2,
+        "Percezione": 1,
+        "Persuasione": 1,
+        "Rapidità di Mano": 2,
+        "Religione": 2,
+        "Sopravvivenza": -1,
+        "Storia": 2
+      },
+      "tiri_salvezza": {
+        "Forza": 3,
+        "Destrezza": 2,
+        "Costituzione": 4,
+        "Intelligenza": 2,
+        "Saggezza": -1,
+        "Carisma": 1
+      },
+      "attacco": {
+        "mischia": 3,
+        "distanza": 4,
+        "incantesimi": 0
+      }
+    },
+    "puntiferita": 16,
+    "puntiferita_massimi": 16,
+    "classearmatura": 19,
+    "bonuscompetenza": 2,
+    "competenze": ["Atletica", "Intimidire", "Intuizione", "Percezione"],
+    "tirisalvezza": ["Forza", "Costituzione"],
+    "strumenti": ["Strumenti da birraio", "Dadi", "Veicoli terrestri"],
+    "trattodistintivo": "Adora la birra e l'alcool in generale, sempre pronto a brindare",
+    "età": 135,
+    "altezza": 1.4,
+    "capelli": "Neri",
+    "barba": "Nera, folta e curata",
+    "occhi": "Verdi",
+    "quartieri": ["Città Bassa", "Porto"],
+    "reputazione": "Rispetta i debiti, noto tra mercanti, fabbri e avventurieri",
+    "amicizie": "Alcuni amici tra mercanti, fabbri e soldati di ventura",
+    "risorse_classe": {
+      "azione_impetuosa": true,
+      "seconda_ventata": true,
+      "stile_combattimento": "Difesa (+1 CA con armatura)"
+    },
+    "inventario": [
+      {"nome": "Ascia da battaglia argentata", "posizione": "manoschiena", "peso": 2.0},
+      {"nome": "Balestra a caricamento rapido", "posizione": "mano destra", "peso": 3.0, "munizioni": 20},
+      {"nome": "Cotta di maglia rinforzata", "posizione": "indossata", "peso": 20.0},
+      {"nome": "Bracciali protettivi", "posizione": "polsi", "peso": 0.5},
+      {"nome": "Scudo", "posizione": "braccio sinistro", "peso": 3.0},
+      {"nome": "Pozioni di guarigione", "quantità": 2, "posizione": "cintura", "peso": 0.5},
+      {"nome": "Bombe fumogene", "quantità": 2, "posizione": "zaino", "peso": 1.0},
+      {"nome": "Antitossina", "quantità": 1, "posizione": "zaino", "peso": 0.3},
+      {"nome": "Fuoco dell'alchimista", "quantità": 2, "posizione": "zaino", "peso": 0.6},
+      {"nome": "Grimaldelli di qualità", "quantità": 5, "posizione": "zaino", "peso": 0.5},
+      {"nome": "Rampino meccanico con carrucola", "posizione": "zaino", "peso": 2.0},
+      {"nome": "Lanterna a luce concentrata", "posizione": "zaino", "peso": 1.0},
+      {
+        "nome": "Baule chiuso a chiave",
+        "posizione": "stanza Lampione Blu",
+        "contenuto": [
+          {"nome": "Pugnali cerimoniali", "quantità": 2},
+          {"nome": "Bastone rituale con teschio in cima"},
+          {"nome": "Frammenti di sostanza cristallizzata rossastra", "quantità": 3},
+          {"nome": "Fiala vuota con residui"},
+          {"nome": "Pugnale da stivale"}
+        ]
+      }
+    ],
+    "statistiche": {
+      "pesotrasportato_totale": 34.4,
+      "capacità_normale": 97.5,
+      "limite_ingombro": 65.0,
+      "limite_ingombro_pesante": 130.0,
+      "stato_attuale": "non ingombrato"
+    },
+    "esperienza": {
+      "attuale": 685,
+      "necessaria_prossimo_livello": 900,
+      "mancante": 215,
+      "percentuale_avanzamento": "76.1%"
+    },
+    "condizioni": {"lungo": true, "breve": true, "ferito": false},
+    "flags": {
+      "masterAssistedActions": false,
+      "strictPlayerAgency": true,
+      "narrativeStyle": "reactiveOnly"
+    },
+    "playerPreferences": {
+      "decisionMaking": "playerOnly",
+      "descriptiveDepth": "high",
+      "combatStyle": "playerRolls",
+      "narrativeControl": "strict"
+    }
+  },
+  "missioni": {
+    "attive": [
+      {
+        "id": "quest-culti-01",
+        "titolo": "Indagini sui culti oscuri di Baldurs Gate",
+        "committente": "Capitano Zodge",
+        "stato": "in corso",
+        "obiettivi": [
+          "Indagare su omicidi rituali",
+          "Raccogliere prove",
+          "Smantellare culti",
+          "Aggiornare Zodge"
+        ],
+        "ricompensa": "200 monete d'oro bonus",
+        "progressi": "Scoperto rituale dei cultisti di Bhaal, eliminati tre cultisti, recuperato campione di liquido rituale e medaglione con simboli dei Tre Morti. Fatto rapporto a Zodge che ha autorizzato collaborazione con Valaerion. Infiltrazione nel magazzino sospetto al porto, scoperta di un possibile simbolo rituale e recupero di indizi dalla guardia (medaglione con fiamma, chiave, foglio turni). Valaerion rapito da figure con medaglioni simili. Scoperta dell'esistenza del 'Santuario della Fiamma' e di un rituale previsto per il 30 Mirtul. Zodge ha fornito distintivo speciale e contatti per proseguire l'indagine."
+      },
+      {
+        "id": "quest-libro-01",
+        "titolo": "Decifrare il libro criptato",
+        "committente": "Rivalen Blackhand",
+        "stato": "in attesa",
+        "descrizione": "Rivalen sta analizzando il libro criptato e una fiala di liquido nerastro"
+      },
+      {
+        "id": "quest-magazzino-porto-01",
+        "titolo": "Indagare sul magazzino al porto",
+        "committente": "Capitano Zodge",
+        "stato": "in corso",
+        "descrizione": "Infiltrazione riuscita nel magazzino sospetto, scoperto simbolo rituale sul pavimento e recuperati indizi importanti. Operazione interrotta a causa dell'allarme. Il Pugno Fiammante ha preso controllo del magazzino. Necessario localizzare il 'Santuario della Fiamma' menzionato nei documenti.",
+        "progressi": [
+          "Localizzazione del magazzino",
+          "Infiltrazione nel seminterrato",
+          "Eliminazione di una guardia",
+          "Scoperta di un possibile simbolo rituale",
+          "Recupero di medaglione con fiamma, chiave e foglio turni",
+          "Scoperta dell'esistenza del 'Santuario della Fiamma'",
+          "Identificazione di un rituale previsto per il 30 Mirtul"
+        ]
+      },
+      {
+        "id": "quest-scudo-01",
+        "titolo": "Scoprire di più sullo Scudo del Signore Nascosto",
+        "committente": "Autodeterminata",
+        "stato": "in corso",
+        "descrizione": "Artefatto potente che potrebbe contenere un demone o diavolo; i Cavalieri dello Scudo lo cercano per conto degli Hhune"
+      },
+      {
+        "id": "quest-salvataggio-valaerion-01",
+        "titolo": "Salvare Valaerion",
+        "committente": "Autodeterminata",
+        "stato": "in corso",
+        "descrizione": "Valaerion è stato catturato da figure incappucciate con medaglioni simili a quello recuperato dalla guardia al magazzino. Probabilmente è stato portato al 'Santuario della Fiamma'.",
+        "obiettivi": [
+          "Localizzare il 'Santuario della Fiamma'",
+          "Infiltrarsi nel santuario",
+          "Liberare Valaerion",
+          "Scoprire informazioni sul rituale previsto per il 30 Mirtul"
+        ],
+        "progressi": [
+          "Testimone oculare del rapimento di Valaerion",
+          "Ottenuto distintivo speciale dal Capitano Zodge",
+          "Indicazione di consultare Falaster Fisk alla Biblioteca di Candlekeep Annex"
+        ]
+      },
+      {
+        "id": "quest-equipaggiamento-speciale-01",
+        "titolo": "Requisire equipaggiamento speciale",
+        "committente": "Capitano Zodge",
+        "stato": "in corso",
+        "descrizione": "Utilizzare il distintivo speciale del Pugno Fiammante per ottenere equipaggiamento dal Quartiermastro Brem alla Caserma del Pugno Fiammante.",
+        "obiettivi": [
+          "Recarsi alla Caserma del Pugno Fiammante nel Quartiere Superiore",
+          "Incontrare il Quartiermastro Brem",
+          "Pronunciare la frase in codice 'Il corvo vola a mezzanotte'",
+          "Requisire equipaggiamento necessario per la missione"
+        ]
+      }
+    ],
+    "concluse": [
+      {"id": "quest-velk-01"},
+      {"id": "quest-tarina-01"},
+      {"id": "quest-tempiobhaal-01"},
+      {"id": "quest-rapportozodge-01"}
+    ]
+  },
+  "PNG": [
+    {"nome": "Mercanti vari", "atteggiamento": "Amichevole", "note": "Contatti commerciali dalla vita da mercenario"},
+    {"nome": "Fabbri", "atteggiamento": "Amichevole", "note": "Apprezzano la tua conoscenza delle armi"},
+    {"nome": "Soldati di ventura", "atteggiamento": "Cameratesco", "note": "Ex compagni d'armi"},
+    {"nome": "Mendicante informatore", "atteggiamento": "Neutrale", "note": "Ti ha fornito informazioni sui culti"},
+    {"nome": "Capitano Zodge", "atteggiamento": "Rispettoso", "note": "Comandante Flaming Fist, tuo committente attuale, soddisfatto dei tuoi progressi, ti ha fornito un distintivo speciale e contatti per proseguire l'indagine"},
+    {"nome": "Tarina", "atteggiamento": "Sospetto", "note": "Informatrice, ricercata dalla Gilda dei Ladri, comportamento strano durante l'incontro"},
+    {"nome": "Rivalen Blackhand", "atteggiamento": "Collaborativo", "note": "Mago del Sorcerous Sundries, analizza i rituali e conferma la minaccia extraplanare"},
+    {"nome": "Alyth Elendara", "atteggiamento": "Neutrale", "note": "Mezzelfa proprietaria dell'Elfsong Tavern"},
+    {"nome": "Valaerion", "atteggiamento": "Alleato", "note": "Bardo elfo, agente dell'Alleanza dei Signori, condivide informazioni sui Tre Morti e lo Scudo. Catturato da figure incappucciate con medaglioni della fiamma."},
+    {"nome": "Shalimar", "atteggiamento": "Neutrale", "note": "Rigattiere nella Città Alta, ha comprato i tuoi oggetti rituali"},
+    {"nome": "Donna misteriosa", "atteggiamento": "Ostile", "note": "Osservava il Lampione Blu con un cannocchiale, possibile obiettivo dell'indagine di Valaerion"},
+    {"nome": "Cultista fuggito", "atteggiamento": "Ostile", "note": "Membro del culto di Bhaal fuggito, potrebbe cercare vendetta"},
+    {"nome": "Cavalieri dello Scudo", "atteggiamento": "Minaccioso", "note": "Confraternita segreta degli Hhune, agenti occultati, sorvegliano lo scudo, possibile collegamento con il 'Santuario della Fiamma'"},
+    {"nome": "Inseguitore incappucciato", "atteggiamento": "Ostile", "note": "Membro dei Cavalieri dello Scudo con spilla argentata, ha tentato di seguirti all'Elfsong Tavern"},
+    {"nome": "Guardia con cicatrice", "atteggiamento": "Ostile", "note": "Sorvegliava il magazzino sospetto al porto. Sconfitto in combattimento e lasciato incosciente."},
+    {"nome": "Guardia con pugnale", "atteggiamento": "Ostile", "note": "Seconda guardia del magazzino, ferita ma riuscita a dare l'allarme."},
+    {"nome": "Brunkhum Wintersides", "atteggiamento": "Neutrale Malvagio", "note": "Uno dei tre fratelli proprietari della taverna 'Tre Vecchi Barili'. Faccia butterata, conosce bevande naniche di qualità."},
+    {"nome": "Avventuriero con cicatrice", "atteggiamento": "Sospetto", "note": "Incontrato ai 'Tre Vecchi Barili', ha menzionato un cugino ispettore doganale e il 'Santuario della Fiamma'"},
+    {"nome": "Alan Alyth", "atteggiamento": "Amichevole", "note": "Proprietario del Lampione Blu, ti conosce e ti rispetta come cliente abituale"},
+    {"nome": "Falaster Fisk", "atteggiamento": "Sconosciuto", "note": "Giovane mago alla Biblioteca di Candlekeep Annex, esperto di Elturel e culti dei Morti"},
+    {"nome": "Quartiermastro Brem", "atteggiamento": "Sconosciuto", "note": "Responsabile dell'armeria alla Caserma del Pugno Fiammante, riconosce il codice 'Il corvo vola a mezzanotte'"}
+  ],
+  "luoghi": {
+    "visitati": [
+      "Baldur's Gate",
+      "Lampione Blu",
+      "Rivington",
+      "Magazzino Rivington",
+      "The Wide",
+      "Sorcerous Sundries",
+      "Corvorame",
+      "Magazzino Laterna",
+      "Elfsong Tavern",
+      "Il Mortaio d'Argento (cortile)",
+      "Magazzino sospetto nel porto (esterno e seminterrato)",
+      "Tre Vecchi Barili (taverna)",
+      "Basilisk Gate",
+      "Caserma del Pugno Fiammante (Quartiere Superiore)"
+    ],
+    "di_interesse": [
+      "Magazzino sospetto nel porto (ora sotto controllo del Pugno Fiammante)",
+      "Sistema fognario usato per spostare merci non identificate",
+      "Edificio di fronte al Lampione Blu con torretta di osservazione",
+      "Santuario della Fiamma (posizione sconosciuta)",
+      "Biblioteca di Candlekeep Annex (quartiere di Bloomridge)",
+      "Taverna del Gabbiano Azzurro (vicino alle dogane)"
+    ],
+    "attuale": "Quartiere Superiore, davanti alla Caserma del Pugno Fiammante"
+  },
+  "eventi_memorizzati": [
+    "Incontro con mendicante informatore",
+    "Primo rapporto a Zodge",
+    "Recupero pergamena indizi",
+    "Soggiorno al Lampione Blu",
+    "Incontro con Velk",
+    "Incontro con Tarina",
+    "Indagine magazzino sospetto",
+    "Combattimento con cultisti",
+    "Rapporto su scrigno di Velk",
+    "Incontro segreto con Valaerion",
+    "Passaggio a livello 2",
+    "Confronto con i Cavalieri dello Scudo all'Elfsong Tavern",
+    "Seminato inseguitore dei Cavalieri dello Scudo",
+    "Incontro riservato con Valaerion al Mortaio d'Argento",
+    "Raggiunto il magazzino sospetto al porto",
+    "Infiltrazione nel seminterrato attraverso una finestra",
+    "Combattimento con due guardie: una messa fuori combattimento, una fuggita",
+    "Recupero di medaglione con simbolo di fiamma, chiave di ferro e foglio con turni",
+    "Fuga dal magazzino in seguito all'allarme",
+    "Rifugio alla taverna 'Tre Vecchi Barili'",
+    "Riposo e recupero punti ferita con Seconda Ventata",
+    "Ritorno al Lampione Blu",
+    "Raccolta informazioni da avventurieri sui fatti al magazzino",
+    "Scoperta dell'esistenza del 'Santuario della Fiamma'",
+    "Testimone del rapimento di Valaerion da una finestra del Lampione Blu",
+    "Riposo notturno al Lampione Blu",
+    "Incontro mattutino con Capitano Zodge al Basilisk Gate",
+    "Ottenimento distintivo speciale del Pugno Fiammante",
+    "Informazioni su Falaster Fisk alla Biblioteca di Candlekeep Annex",
+    "Istruzioni per requisire equipaggiamento dal Quartiermastro Brem",
+    "Requisizione equipaggiamento speciale da Brem",
+    "Deposito oggetti non utili nel baule al Lampione Blu"
+  ],
+  "relazioni": [
+    {"nome": "Mercanti vari", "atteggiamento": "Amichevole"},
+    {"nome": "Fabbri", "atteggiamento": "Amichevole"},
+    {"nome": "Soldati di ventura", "atteggiamento": "Cameratesco"},
+    {"nome": "Mendicante informatore", "atteggiamento": "Neutrale"},
+    {"nome": "Capitano Zodge", "atteggiamento": "Rispettoso"},
+    {"nome": "Tarina", "atteggiamento": "Sospetto"},
+    {"nome": "Rivalen Blackhand", "atteggiamento": "Collaborativo"},
+    {"nome": "Alyth Elendara", "atteggiamento": "Neutrale"},
+    {"nome": "Valaerion", "atteggiamento": "Alleato"},
+    {"nome": "Shalimar", "atteggiamento": "Neutrale"},
+    {"nome": "Donna misteriosa", "atteggiamento": "Ostile"},
+    {"nome": "Cultista fuggito", "atteggiamento": "Ostile"},
+    {"nome": "Cavalieri dello Scudo", "atteggiamento": "Minaccioso"},
+    {"nome": "Inseguitore incappucciato", "atteggiamento": "Ostile"},
+    {"nome": "Guardia con cicatrice", "atteggiamento": "Ostile"},
+    {"nome": "Guardia con pugnale", "atteggiamento": "Ostile"},
+    {"nome": "Brunkhum Wintersides", "atteggiamento": "Neutrale Malvagio"},
+    {"nome": "Avventuriero con cicatrice", "atteggiamento": "Sospetto"},
+    {"nome": "Alan Alyth", "atteggiamento": "Amichevole"},
+    {"nome": "Falaster Fisk", "atteggiamento": "Sconosciuto"},
+    {"nome": "Quartiermastro Brem", "atteggiamento": "Sconosciuto"}
+  ],
+  "cronologia": [
+    "Incontro con mendicante informatore",
+    "Primo rapporto a Zodge",
+    "Recupero pergamena indizi",
+    "Soggiorno al Lampione Blu",
+    "Incontro con Velk",
+    "Incontro con Tarina",
+    "Indagine magazzino sospetto",
+    "Combattimento con cultisti",
+    "Rapporto su scrigno di Velk",
+    "Incontro segreto con Valaerion",
+    "Passaggio a livello 2",
+    "Confronto con i Cavalieri dello Scudo all'Elfsong Tavern",
+    "Seminato inseguitore dei Cavalieri dello Scudo",
+    "Incontro riservato con Valaerion al Mortaio d'Argento",
+    "Raggiunto il magazzino sospetto al porto",
+    "Infiltrazione nel seminterrato attraverso una finestra",
+    "Combattimento con due guardie: una messa fuori combattimento, una fuggita",
+    "Recupero di medaglione con simbolo di fiamma, chiave di ferro e foglio con turni",
+    "Fuga dal magazzino in seguito all'allarme",
+    "Rifugio alla taverna 'Tre Vecchi Barili'",
+    "Riposo e recupero punti ferita con Seconda Ventata",
+    "Ritorno al Lampione Blu",
+    "Raccolta informazioni da avventurieri sui fatti al magazzino",
+    "Scoperta dell'esistenza del 'Santuario della Fiamma'",
+    "Testimone del rapimento di Valaerion da una finestra del Lampione Blu",
+    "Riposo notturno al Lampione Blu",
+    "Incontro mattutino con Capitano Zodge al Basilisk Gate",
+    "Ottenimento distintivo speciale del Pugno Fiammante",
+    "Informazioni su Falaster Fisk alla Biblioteca di Candlekeep Annex",
+    "Istruzioni per requisire equipaggiamento dal Quartiermastro Brem",
+    "Requisizione equipaggiamento speciale da Brem",
+    "Deposito oggetti non utili nel baule al Lampione Blu"
+  ],
+  "note": "Whurrard ha aggiornato il suo equipaggiamento con armi e armature speciali fornite dal Quartiermastro Brem. Ha depositato gli oggetti non essenziali nel baule al Lampione Blu per muoversi più agilmente. Sa che la Biblioteca di Candlekeep Annex si trova nel quartiere di Bloomridge, ma non conosce l'esatta posizione.",
+  "datagioco": "26 Mirtul 1492 DR",
+  "oragioco": "09:45",
+  "sistema_xp": {
+    "flag_xp_pendenti": false,
+    "ultima_attività_premiata": "Deposito oggetti non utili nel baule al Lampione Blu",
+    "categorie_premio": {
+      "combattimento": {"base": 25, "per_nemico": 25, "per_boss": 50},
+      "esplorazione": {"scoperta_luogo": 10, "raccolta_indizi": 15},
+      "indagine": {"indizio_minore": 5, "indizio_maggiore": 15, "svolta_importante": 25},
+      "interazione": {"nuova_alleanza": 10, "informazione_critica": 15},
+      "roleplay": {"interpretazione_eccellente": 10, "decisione_in_linea": 5}
+    },
+    "progressione_livelli": {
+      "0-1": 0,
+      "1-2": 300,
+      "2-3": 900,
+      "3-4": 2700,
+      "4-5": 6500,
+      "5-6": 14000,
+      "6-7": 23000,
+      "7-8": 34000,
+      "8-9": 48000,
+      "9-10": 64000
+    }
+  }
+}
