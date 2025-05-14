@@ -1,0 +1,623 @@
+{
+  "sessione": "2025-05-14",
+  "datagioco": "26 Mirtul 1492 DR",
+  "oragioco": "14:48",
+  "PG": {
+    "nome": "Whurrard",
+    "razza": "Nano delle Montagne",
+    "classe": "Guerriero",
+    "archetipo": "Campione",
+    "livello": 3,
+    "punti_ferita_max": 28,
+    "punti_ferita_attuali": 28,
+    "dadi_vita": "3d10",
+    "bonus_competenza": 2,
+    "caratteristiche": {
+      "For": 13,
+      "Des": 14,
+      "Cos": 14,
+      "Int": 15,
+      "Sag": 8,
+      "Car": 12
+    },
+    "modificatori": {
+      "For": 1,
+      "Des": 2,
+      "Cos": 2,
+      "Int": 2,
+      "Sag": -1,
+      "Car": 1
+    },
+    "tiri_salvezza": {
+      "For": 3,
+      "Cos": 4,
+      "Des": 2,
+      "Int": 2,
+      "Sag": -1,
+      "Car": 1
+    },
+    "classe_armatura": 19,
+    "velocità_m": 7.5,
+    "risorse_classe": {
+      "stile_combattimento": "Difesa (+1 CA con armatura)",
+      "seconda_ventata_disponibile": true,
+      "azione_impetuosa_disponibile": false,
+      "critico_migliorato": true
+    },
+    "condizioni_attive": {
+      "riposo_lungo": true,
+      "riposo_breve": true,
+      "vantaggio_vs_veleno": "fino alle 15:05",
+      "ferito": false,
+      "status_temporanei": []
+    },
+    "esperienza": {
+      "sistema": "milestone",
+      "totale": 765,
+      "prossimo_livello_a": 2700,
+      "percentuale_avanzamento": 28.3
+    },
+    "inventario": [
+      {
+        "nome": "Ascia da battaglia argentata",
+        "posizione": "manoschiena",
+        "peso": 2.0,
+        "stato": "equipaggiata"
+      },
+      {
+        "nome": "Scudo",
+        "posizione": "braccio sinistro",
+        "peso": 3.0,
+        "stato": "equipaggiato"
+      },
+      {
+        "nome": "Cotta di maglia rinforzata",
+        "posizione": "indossata",
+        "peso": 20.0
+      },
+      {
+        "nome": "Bracciali protettivi",
+        "posizione": "polsi",
+        "peso": 0.5
+      },
+      {
+        "nome": "Pozione di guarigione",
+        "quantità": 1,
+        "posizione": "cintura",
+        "peso": 0.5
+      },
+      {
+        "nome": "Tonico per il cuore",
+        "posizione": "cintura",
+        "peso": 0.1
+      },
+      {
+        "nome": "Pozione di guarigione superiore",
+        "quantità": 1,
+        "posizione": "zaino",
+        "peso": 0.3
+      },
+      {
+        "nome": "Bomba fumogena",
+        "quantità": 1,
+        "posizione": "zaino",
+        "peso": 0.5
+      },
+      {
+        "nome": "Fuoco dell'Alchimista",
+        "quantità": 1,
+        "posizione": "zaino",
+        "peso": 0.3
+      },
+      {
+        "nome": "Grimaldelli di qualità",
+        "quantità": 5,
+        "posizione": "zaino",
+        "peso": 0.5
+      },
+      {
+        "nome": "Rampino meccanico con carrucola (15 m)",
+        "posizione": "zaino",
+        "peso": 2.0
+      },
+      {
+        "nome": "Lanterna a luce concentrata",
+        "posizione": "zaino",
+        "peso": 1.0
+      },
+      {
+        "nome": "Gemma cremisi incisa",
+        "posizione": "zaino",
+        "peso": 0.1
+      },
+      {
+        "nome": "Fiala metallica sigillata",
+        "posizione": "zaino",
+        "peso": 0.2
+      },
+      {
+        "nome": "Statuetta in osso – fiamma avvolta",
+        "posizione": "zaino",
+        "peso": 0.4
+      },
+      {
+        "nome": "Tessera ossea rituale",
+        "posizione": "tasca laterale zaino",
+        "peso": 0.1
+      },
+      {
+        "nome": "Specchio da palmo in ferro annerito",
+        "posizione": "zaino",
+        "peso": 0.2
+      },
+      {
+        "nome": "Rotolo rituale nanico‑infernale",
+        "posizione": "zaino",
+        "peso": 0.0
+      },
+      {
+        "nome": "Lama curva d'osso",
+        "posizione": "zaino",
+        "peso": 0.4
+      },
+      {
+        "nome": "Pergamena Protezione Male/Bene",
+        "posizione": "zaino",
+        "peso": 0.0
+      },
+      {
+        "nome": "Pergamena Individuazione del Magico",
+        "posizione": "zaino",
+        "peso": 0.0
+      },
+      {
+        "nome": "Pergamena Santuario",
+        "posizione": "zaino",
+        "peso": 0.0
+      },
+      {
+        "nome": "Pergamena rituale con sigillo spezzato",
+        "posizione": "tubo documenti",
+        "peso": 0.0
+      },
+      {
+        "nome": "Medaglione annerito di Myrkul",
+        "posizione": "tasca interna cotta",
+        "peso": 0.1
+      },
+      {
+        "nome": "Anello con spina retrattile",
+        "posizione": "kit da birraio",
+        "peso": 0.1
+      },
+      {
+        "nome": "Pietra da segnale runica",
+        "posizione": "tasca interna cotta",
+        "peso": 0.1
+      },
+      {
+        "nome": "Fibbia argentata simbolo Bane",
+        "posizione": "zaino",
+        "peso": 0.05
+      },
+      {
+        "nome": "Distintivo speciale del Pugno Fiammante",
+        "posizione": "scomparto segreto zaino",
+        "peso": 0.1
+      },
+      {
+        "nome": "Rotolo sigillato per contatto del Gabbiano Azzurro",
+        "posizione": "tasca esterna zaino",
+        "peso": 0.0
+      }
+    ],
+    "statistiche_carico": {
+      "peso_totale_kg": 31.4,
+      "capacita_normale_kg": 97.5,
+      "soglia_ingombro_kg": 65.0,
+      "soglia_ingombro_pesante_kg": 130.0,
+      "stato": "non ingombrato"
+    },
+    "flags": {
+      "master_assisted_actions": false,
+      "strict_player_agency": true,
+      "narrative_style": "reactive_only"
+    },
+    "player_preferences": {
+      "decision_making": "player_only",
+      "descriptive_depth": "high",
+      "combat_style": "player_rolls",
+      "narrative_control": "strict"
+    },
+    "background": "Ex soldato mercenario, ora avventuriero a Baldur's Gate",
+    "allineamento": "Neutrale Buono",
+    "divinita_patrona": "Hanseath Il Barbuto",
+    "lingue": [
+      "Comune",
+      "Nanico"
+    ],
+    "competenze": [
+      "Atletica",
+      "Intimidire",
+      "Intuizione",
+      "Percezione"
+    ],
+    "tirisalvezza": [
+      "Forza",
+      "Costituzione"
+    ],
+    "strumenti": [
+      "Strumenti da birraio",
+      "Dadi",
+      "Veicoli terrestri"
+    ],
+    "tratto_distintivo": "Adora la birra e l'alcool in generale, sempre pronto a brindare",
+    "eta": 135,
+    "altezza_m": 1.4,
+    "capelli": "Neri",
+    "barba": "Nera, folta e curata",
+    "occhi": "Verdi",
+    "quartieri": [
+      "Città Bassa",
+      "Porto"
+    ],
+    "reputazione": "Rispetta i debiti, noto tra mercanti, fabbri e avventurieri",
+    "amicizie": "Alcuni amici tra mercanti, fabbri e soldati di ventura",
+    "ricompense_assegnate": [
+      {
+        "id": "cult-bhaal-01",
+        "descrizione": "Eliminazione di tre cultisti nel tempio di Bhaal",
+        "xp": 75,
+        "datagioco": "25 Mirtul 1492 DR"
+      },
+      {
+        "id": "rapport-zodge-01",
+        "descrizione": "Rapporto al Capitano Zodge sui cultisti",
+        "xp": 50,
+        "datagioco": "25 Mirtul 1492 DR"
+      },
+      {
+        "id": "magazzino-porto-01",
+        "descrizione": "Combattimento magazzino sospetto al porto",
+        "xp": 75,
+        "datagiogo": "25 Mirtul 1492 DR"
+      }
+    ]
+  },
+  "compagni": {
+    "Valaerion": {
+      "razza_classe": "Elfo Alto – Bardo 4 (spossato)",
+      "punti_ferita": 14,
+      "CA": 13,
+      "inventario": [
+        {
+          "nome": "Balestra a caricamento rapido",
+          "posizione": "in mano",
+          "munizioni": 20,
+          "peso": 3.0
+        },
+        {
+          "nome": "Pugnale cerimoniale elfico",
+          "posizione": "cintura",
+          "peso": 0.4
+        },
+        {
+          "nome": "Anello d'argento rune elfiche",
+          "posizione": "dito",
+          "peso": 0.0
+        },
+        {
+          "nome": "Bomba fumogena",
+          "quantità": 1,
+          "posizione": "cintura",
+          "peso": 0.5
+        },
+        {
+          "nome": "Fuoco dell'Alchimista",
+          "quantità": 1,
+          "posizione": "cintura",
+          "peso": 0.3
+        },
+        {
+          "nome": "Pozione di guarigione",
+          "quantità": 1,
+          "posizione": "borsa a tracolla",
+          "peso": 0.5
+        }
+      ],
+      "status": "affaticato, segue Whurrard"
+    }
+  },
+  "missioni": {
+    "attive": [
+      {
+        "id": "quest-culti-01",
+        "titolo": "Indagini sui culti oscuri di Baldur's Gate",
+        "committente": "Capitano Zodge",
+        "stato": "in corso",
+        "obiettivi": [
+          "Raccogliere prove sull'attività dei culti",
+          "Smantellare i rituali dei Tre Morti",
+          "Aggiornare regolarmente Zodge"
+        ],
+        "progressi": [
+          "Ispezionato magazzino porto; recuperati medaglioni e documenti",
+          "Ottenuto contatto Falaster Fisk e nuova pista sul Santuario della Fiamma",
+          "Infiltrata cripta sotto la Taverna del Gabbiano Azzurro; recuperati oggetti rituali"
+        ],
+        "ricompensa_promessa": "200 mo + gratifiche extra"
+      },
+      {
+        "id": "quest-libro-01",
+        "titolo": "Decifrare il libro criptato",
+        "committente": "Rivalen Blackhand",
+        "stato": "in attesa",
+        "descrizione": "Rivalen sta completando l'analisi del tomo e della fiala nerastro."
+      },
+      {
+        "id": "quest-magazzino-porto-01",
+        "titolo": "Indagare sul magazzino al porto",
+        "committente": "Capitano Zodge",
+        "stato": "in corso",
+        "descrizione": "Il Pugno Fiammante ha preso controllo del magazzino. Necessario localizzare il 'Santuario della Fiamma' menzionato nei documenti.",
+        "progressi": [
+          "Localizzazione del magazzino",
+          "Infiltrazione nel seminterrato",
+          "Eliminazione di una guardia",
+          "Scoperta di simbolo rituale",
+          "Recupero di medaglione con fiamma, chiave, foglio turni"
+        ]
+      },
+      {
+        "id": "quest-scudo-01",
+        "titolo": "Scoprire di più sullo Scudo del Signore Nascosto",
+        "committente": "Autodeterminata",
+        "stato": "in corso",
+        "descrizione": "Artefatto ricercato dai Cavalieri dello Scudo."
+      },
+      {
+        "id": "quest-salvataggio-valaerion-01",
+        "titolo": "Salvare Valaerion",
+        "committente": "Autodeterminata",
+        "stato": "in corso",
+        "obiettivi": [
+          "Localizzare il Santuario della Fiamma",
+          "Infiltrarsi e liberare Valaerion",
+          "Interrompere il rituale del 30 Mirtul"
+        ],
+        "progressi": [
+          "Testimone rapimento di Valaerion",
+          "Rotolo sigillato consegnato per contatto",
+          "Accesso alla cripta iniziale collegata al Santuario"
+        ]
+      },
+      {
+        "id": "quest-equipaggiamento-speciale-01",
+        "titolo": "Requisire equipaggiamento speciale",
+        "committente": "Capitano Zodge",
+        "stato": "completata",
+        "descrizione": "Equipaggiamento ottenuto da Brem con codice."
+      }
+    ],
+    "concluse": [
+      {
+        "id": "quest-velk-01"
+      },
+      {
+        "id": "quest-tarina-01"
+      },
+      {
+        "id": "quest-tempiobhaal-01"
+      },
+      {
+        "id": "quest-rapportozodge-01"
+      }
+    ]
+  },
+  "PNG": [
+    {
+      "nome": "Mendicante informatore",
+      "atteggiamento": "Neutrale"
+    },
+    {
+      "nome": "Capitano Zodge",
+      "atteggiamento": "Rispettoso"
+    },
+    {
+      "nome": "Tarina",
+      "atteggiamento": "Sospetto"
+    },
+    {
+      "nome": "Rivalen Blackhand",
+      "atteggiamento": "Collaborativo"
+    },
+    {
+      "nome": "Alyth Elendara",
+      "atteggiamento": "Neutrale"
+    },
+    {
+      "nome": "Valaerion",
+      "atteggiamento": "Alleato"
+    },
+    {
+      "nome": "Shalimar",
+      "atteggiamento": "Neutrale"
+    },
+    {
+      "nome": "Donna misteriosa",
+      "atteggiamento": "Ostile"
+    },
+    {
+      "nome": "Cultista fuggito",
+      "atteggiamento": "Ostile"
+    },
+    {
+      "nome": "Cavalieri dello Scudo",
+      "atteggiamento": "Minaccioso"
+    },
+    {
+      "nome": "Inseguitore incappucciato",
+      "atteggiamento": "Ostile"
+    },
+    {
+      "nome": "Guardia con cicatrice",
+      "atteggiamento": "Ostile"
+    },
+    {
+      "nome": "Guardia con pugnale",
+      "atteggiamento": "Ostile"
+    },
+    {
+      "nome": "Brunkhum Wintersides",
+      "atteggiamento": "Neutrale Malvagio"
+    },
+    {
+      "nome": "Avventuriero con cicatrice",
+      "atteggiamento": "Sospetto"
+    },
+    {
+      "nome": "Alan Alyth",
+      "atteggiamento": "Amichevole"
+    },
+    {
+      "nome": "Falaster Fisk",
+      "atteggiamento": "Collaborativo"
+    },
+    {
+      "nome": "Quartiermastro Brem",
+      "atteggiamento": "Neutrale"
+    },
+    {
+      "nome": "Mercanti vari"
+    },
+    {
+      "nome": "Fabbri"
+    },
+    {
+      "nome": "Soldati di ventura"
+    }
+  ],
+  "luoghi": {
+    "visitati": [
+      "Baldur's Gate",
+      "Basilisk Gate",
+      "Biblioteca Candlekeep Annex",
+      "Caserma del Pugno Fiammante (Quartiere Superiore)",
+      "Corvorame",
+      "Cripta sotterranea sotto la Taverna del Gabbiano Azzurro",
+      "Elfsong Tavern",
+      "Il Mortaio d'Argento (cortile)",
+      "Lampione Blu",
+      "Magazzino Laterna",
+      "Magazzino Rivington",
+      "Magazzino sospetto nel porto (esterno e seminterrato)",
+      "Rivington",
+      "Sala del Sangue Silenzioso",
+      "Sorcerous Sundries",
+      "Taverna del Gabbiano Azzurro",
+      "The Wide",
+      "Tre Vecchi Barili (taverna)",
+      "Zona dogane – esterno Taverna del Gabbiano Azzurro"
+    ],
+    "di_interesse": [
+      "Biblioteca di Candlekeep Annex (quartiere di Bloomridge)",
+      "Edificio di fronte al Lampione Blu con torretta di osservazione",
+      "Magazzino sospetto nel porto (ora sotto controllo del Pugno Fiammante)",
+      "Santuario della Fiamma (posizione sconosciuta)",
+      "Scudo del Signore Nascosto (ubicazione ignota)",
+      "Sistema fognario usato per spostare merci non identificate",
+      "Sorcerous Sundries",
+      "Taverna del Gabbiano Azzurro (vicino alle dogane)"
+    ],
+    "attuale": "Cripta – corridoio oltre la Sala del Sangue Silenzioso"
+  },
+  "cronologia_eventi": [
+    "Attraversato passaggio rituale oltre la Sala del Sangue Silenzioso",
+    "Bevuto il contenuto della ciotola rituale nella Sala del Sangue Silenzioso",
+    "Combattimento con cultisti",
+    "Confronto con i Cavalieri dello Scudo all'Elfsong Tavern",
+    "Consegna balestra, bomba fumogena e fuoco dell'Alchimista a Valaerion",
+    "Deposito oggetti non utili nel baule al Lampione Blu",
+    "Incontro con Tarina",
+    "Incontro con Velk",
+    "Incontro con mendicante informatore",
+    "Incontro riservato con Valaerion al Mortaio d'Argento",
+    "Incontro segreto con Valaerion",
+    "Indagine magazzino sospetto",
+    "Infiltrazione cripta sotto la Taverna del Gabbiano Azzurro",
+    "Informazioni su Falaster Fisk alla Biblioteca Candlekeep Annex",
+    "Ottenimento distintivo speciale del Pugno Fiammante",
+    "Passaggio a livello 2",
+    "Primo rapporto a Zodge",
+    "Raccolto pergamena rituale, medaglione Myrkul, anello spina retrattile",
+    "Rapporto su scrigno di Velk",
+    "Recupero pergamena indizi",
+    "Requisizione equipaggiamento speciale da Brem",
+    "Seminato inseguitore dei Cavalieri dello Scudo",
+    "Soggiorno al Lampione Blu",
+    "Testimone del rapimento di Valaerion dal Lampione Blu",
+    "Visione del portale di sangue e delle tre figure mantellate"
+  ],
+  "impostazioni_DM_IA": {
+    "xp_automatici": true,
+    "controllo_dadi": "solo giocatore",
+    "flag_narrativi": {
+      "rituale_tre_morti": true,
+      "tracciamento_runico": true
+    }
+  },
+  "sistema_xp": {
+    "flag_xp_pendenti": false,
+    "ultima_attivita_premiata": "Deposito oggetti non utili nel baule al Lampione Blu",
+    "categorie_premio": {
+      "combattimento": {
+        "base": 25,
+        "per_nemico": 25,
+        "per_boss": 50
+      },
+      "esplorazione": {
+        "scoperta_luogo": 10,
+        "raccolta_indizi": 15
+      },
+      "indagine": {
+        "indizio_minore": 5,
+        "indizio_maggiore": 15,
+        "svolta_importante": 25
+      },
+      "interazione": {
+        "nuova_alleanza": 10,
+        "informazione_critica": 15
+      },
+      "roleplay": {
+        "interpretazione_eccellente": 10,
+        "decisione_in_linea": 5
+      }
+    },
+    "progressione_livelli": {
+      "0-1": 0,
+      "1-2": 300,
+      "2-3": 900,
+      "3-4": 2700,
+      "4-5": 6500,
+      "5-6": 14000,
+      "6-7": 23000,
+      "7-8": 34000,
+      "8-9": 48000,
+      "9-10": 64000
+    }
+  },
+  "relazioni": [
+    {
+      "nome": "Mercanti vari",
+      "atteggiamento": "Amichevole"
+    },
+    {
+      "nome": "Fabbri",
+      "atteggiamento": "Amichevole"
+    },
+    {
+      "nome": "Soldati di ventura",
+      "atteggiamento": "Cameratesco"
+    }
+  ]
+}
